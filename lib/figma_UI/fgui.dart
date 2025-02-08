@@ -59,7 +59,12 @@ class _FguiState extends State<Fgui> {
                             ),
               ),
             ),
-          )
+          ),
+          ListView.builder(
+            itemCount: 10,
+            itemBuilder: (c,i){
+          return 
+          })
         ],
      ),
    ),
